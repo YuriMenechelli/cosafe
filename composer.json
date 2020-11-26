@@ -1,0 +1,27 @@
+{
+  "name": "tcc_unip/cosafe",
+  "description": "Tcc Unip",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Grupo CO-SAFE",
+      "email": "email@example.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "1.0.7"
+  }
+}

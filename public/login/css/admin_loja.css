@@ -1,0 +1,36 @@
+
+.margin-bottom{
+	margin-bottom: 20px;
+}
+
+.img_photo_prod_view {
+	border: 1px #1c160d solid;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.img_photo_prod_view img{
+	height: 180px;
+	border-radius: 5px;
+}
+
+.img_photo_prod_view a{
+	display: block;
+	margin-top: 15px;
+}
+
+
+.btn_opcoes {
+	margin: 2px;
+	padding: 4px;
+	border: 2px #0a0a0a solid;
+	border-radius: 5px;
+}
+
+
+.borda_da_pag {
+	border: 2px #696969 dotted;
+	border-radius: 5px;
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fba7bfb6-38f0-46c3-aa87-249038a3f7e5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/libraries/bootstrap-4.0.0/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="C:\wamp64\www\cosafe\composer.phar" interpreterId="51ed69be-f801-4446-a5f0-a957af4b0ea7" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/libraries/bootstrap-4.0.0/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1ivrcmWQ1QloFfYPa3RUL4R0xvR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../loja_virtual" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fba7bfb6-38f0-46c3-aa87-249038a3f7e5" name="Default Changelist" comment="" />
+      <created>1602798987291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602798987291</updated>
+      <workItem from="1602798988383" duration="11422000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-840" y="108" key="#CLI_Interpreters" timestamp="1602799581995">
+      <screen x="-1280" y="108" width="1280" height="680" />
+    </state>
+    <state x="-840" y="108" key="#CLI_Interpreters/0.0.1440.860/-1280.108.1280.680@-1280.108.1280.680" timestamp="1602799581995" />
+    <state x="-1048" y="108" key="#Intentions" timestamp="1602801132079">
+      <screen x="-1280" y="108" width="1280" height="680" />
+    </state>
+    <state x="-1048" y="108" key="#Intentions/0.0.1440.860/-1280.108.1280.680@-1280.108.1280.680" timestamp="1602801132079" />
+    <state x="-864" y="360" width="447" height="265" key="ComposerInitDialogKey" timestamp="1602799589326">
+      <screen x="-1280" y="108" width="1280" height="680" />
+    </state>
+    <state x="-864" y="360" width="447" height="265" key="ComposerInitDialogKey/0.0.1440.860/-1280.108.1280.680@-1280.108.1280.680" timestamp="1602799589326" />
+    <state x="-861" y="234" key="FileChooserDialogImpl" timestamp="1602806257053">
+      <screen x="-1280" y="108" width="1280" height="680" />
+    </state>
+    <state x="-861" y="234" key="FileChooserDialogImpl/0.0.1440.860/-1280.108.1280.680@-1280.108.1280.680" timestamp="1602806257053" />
+    <state x="-806" y="371" key="NewPhpFileDialog" timestamp="1602804205227">
+      <screen x="-1280" y="108" width="1280" height="680" />
+    </state>
+    <state x="-806" y="371" key="NewPhpFileDialog/0.0.1440.860/-1280.108.1280.680@-1280.108.1280.680" timestamp="1602804205227" />
+    <state x="-1280" y="108" width="585" height="680" key="find.popup" timestamp="1602806903720">
+      <screen x="-1280" y="108" width="1280" height="680" />
+    </state>
+    <state x="-1280" y="108" width="585" height="680" key="find.popup/0.0.1440.860/-1280.108.1280.680@-1280.108.1280.680" timestamp="1602806903720" />
+  </component>
+</project>

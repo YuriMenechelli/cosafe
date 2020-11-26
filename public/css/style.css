@@ -1,0 +1,168 @@
+.progress {
+  width: 150px;
+  height: 150px;
+  background: none;
+  position: relative;
+}
+
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress .progress-left {
+  left: 0;
+}
+
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.progress .progress-right {
+  right: 0;
+}
+
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+
+.progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.rounded-lg {
+  border-radius: 1rem;
+}
+
+.text-gray {
+  color: #aaa;
+}
+
+div.h4 {
+  line-height: 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body{
+    background-attachment: #f9f9f9;
+}
+
+#check {
+    display:none;
+}
+
+#icone {
+    cursor: pointer;
+    padding: 15px;
+    position: absolute; 
+    z-index: 2;
+}
+
+.barra {
+    background-color: #333;  
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition: all .2s linear;
+    left:-300px;
+    z-index: 1;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+nav  a {
+    text-decoration: none;
+}
+
+.link {
+    background-color: #494950;
+    padding: 20px;
+    font-family: 'Arial';
+    font-size: 12pt;
+    transition: all .2s linear;
+    color: #f4f4f9;
+    border-bottom: 2px solid #222;
+    opacity: 0;
+    margin-top: 200px;
+}
+
+.link:hover {
+    background-color: #050542
+}
+
+#check:checked ~ .barra {
+    transform: translateX(300px);
+}
+
+#check:checked ~ .barra nav a .link {
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: .2s;
+}
+
+#check:checked ~ .display {
+  padding-left: 300px;
+}
+
+#center {
+  position: absolute;
+    width: 100%;
+    margin-top: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
